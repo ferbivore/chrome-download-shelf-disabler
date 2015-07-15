@@ -3,7 +3,8 @@
 
   "name": "Download Shelf Disabler",
   "description": "Turns off Chrome's downloads shelf.",
-  "version": "1.0",
+  "version": "1.1",
+  "icons": { "128": "icon128.png" },
 
   "background": {
     "scripts": ["eventPage.js"],
