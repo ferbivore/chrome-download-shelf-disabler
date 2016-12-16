@@ -1,4 +1,4 @@
 chrome.downloads.setShelfEnabled(false);
-chrome.runtime.onStartup.addListener(function() {
+chrome.windows.onCreated.addListener(function() {
 	chrome.downloads.setShelfEnabled(false);
 });
